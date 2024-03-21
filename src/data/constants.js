@@ -94,7 +94,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "/images/einstein.jpg",
+    img: "/einstein.png",
     role: "Shkolla Fillore dhe e Mesme e Ulët",
     company: "EMRI I SHKOLLES",
     date: "Aug 2023 - July 2023 ( VITET NE TE CILAT ESHTE VIJUAR SHKOLLIMI)",
@@ -175,12 +175,9 @@ export const projects = [
     description:
       "Albert Einstein është fizikani më i madh i shekullit të 20-të, ku falë punës së tij, Fizika është ngritur në një nivel shumë të lartë! Ajnshtajni ka zhvilluar qindra mijëra formula, por më të rëndësishmet janë shprehjet e mëposhtme (të paraqitura në këtë punim). Le të diskutojmë për këto ekuacione!",
     image:
-    "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: [
-      "Physics",
-      "Einstein",
-    ],
-    category: "web apps",
+      "einstein.png",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    category: "web app",
     github: "https://www.academia.edu/75348717/Ekuacionet_e_Ajnshtajnit_p%C3%ABr_Fush%C3%ABn",
   },
   {
@@ -190,19 +187,19 @@ export const projects = [
     description:
       "Trupi i njeriut është një makinë, lëvizjet e së cilës drejtohen nga shpirti”, shkroi Rene Descartes në fillim të shekullit të shtatëmbëdhjetë. Njerëzit kanë një strukturë fizike unike që u mundëson të qëndrojnë në këmbë, pavarësisht tërheqjes së gravitetit që vepron më poshtë nesh. Për të vendosur një qëndrim të tillë duhet të ketë aktivitete të shumta fizike, por jo gjithmonë njerëzit kanë kohë dhe mundësi për t'iu përgjigjur këtyre nevojave dhe shpesh kërkojnë të bëjnë fizioterapi. Por fizioterapia gjen aplikim të gjerë, me përjashtim të kërkesës për fizioterapi, kur njerëzit mbeten të palëvizshëm apo më shumë që kanë probleme me lëvizjen e gjymtyrëve dhe probleme të tjera shëndetësore.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "/fizioterapi.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
     github: "https://www.academia.edu/19989445/Physical_methods_in_Physiotherapy",
   },
   {
     id: 1,
-    title: "Natyra grimcore e dritës",
+    title: "Natyra Grimcore e Dritës",
     date: "VITI I PUBLIKIMIT",
     description:
       "Drita është një burim i pashtershëm i energjisë, pa të cilën jeta nuk ka kuptim, por edhe nuk mund të zhvillohet. Në aspektin shkencor, rrezet e dritës janë një rrezatim elektromagnetik i cili mbulon vetëm një pjesë të spektrit të valëve elektromagnetike. Në këtë punim do të studiojmë pikërisht dukuritë që shpjegojnë natyrën grimcore ose korpuskualre të dritës, siç janë; efekti fotoelektrik, efekti kompton, shtypja e dritës, varshmërina e frekuencës nga rrezatimi termal (i cili shpjegohet me ligjet e rrezatimit të trupit absolut të zi) dhe fenomene tjera të kësaj natyre.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "light.png",
     tags: [
       "React Js",
       "MongoDb",
@@ -214,85 +211,108 @@ export const projects = [
     category: "web app",
     github: "https://www.academia.edu/13635290/Natyra_grimcore_e_drit%C3%ABs",
   },
-  // {
-  //   id: 2,
-  //   title: "Brain Tumor Detection",
-  //   date: "Jan 2023 - Mar 2023",
-  //   description:
-  //     "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-  //   image:
-  //     "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-  //   webapp: "https://brain-tumor.netlify.app/",
-  //   member: [
-  //     {
-  //       name: "Rishav Chanda",
-  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       github: "https://github.com/rishavchanda/",
-  //     },
-  //     {
-  //       name: "Upasana Chaudhuri",
-  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //       github: "https://github.com/upasana0710",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 3,
-  //   title: "Buckoid",
-  //   date: "Dec 2021 - Apr 2022",
-  //   description:
-  //     "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-  //   image:
-  //     "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-  //   tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Buckoid-Android-App",
-  //   webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  // },
-  // {
-  //   id: 10,
-  //   title: "Job Finding App",
-  //   date: "Jun 2023 - Jul 2023",
-  //   description:
-  //     "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-  //   tags: ["React Native", "JavaScript", "Axios"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Job-finder-App",
-  //   webapp: "https://github.com/rishavchanda/Job-finder-App",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Whatsapp Clone",
-  //   date: "Jul 2021",
-  //   description:
-  //     "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-  //   tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-  //   webapp: "https://whatsapp-clone-rishav.web.app",
-  // },
-  // {
-  //   id: 5,
-  //   title: "Todo Web App",
-  //   date: "Jun 2021",
-  //   description:
-  //     " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-  //   image:
-  //     "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Todo-Web-App",
-  //   webapp: "https://rishav-react-todo.netlify.app/",
-  // },
+  {
+    id: 11,
+    title: "Induksioni Elektromagnetik",
+    date: "2015",
+    description:
+      "Tri ligjet e induksionit elektromagnetik, dhe dy ligjet e elektrolizës, në origjinal janë dhënë nga fizikani Anglez Michael Faraday. Ligjet e induksionit elektromagnetik, janë: 1. Ndryshimi i fushës magnetike krijon induksionin e forcës elektromagnetike në një përcjellës. 2. Forca elektromagnetike është proporcionale me sasinë e ndryshimit të fushës. 3. Drejtimi i forcës së induktuar elektromagnetike, varet nga orientimi i fushës. Ndërsa dy ligjet e elektrostatikës janë: Masa e substancës që ndryshon në një elektrodë gjatë elektrolizës, në mënyrë direkte është proporcionale me sasinë e elektricitetit që transferohet në atë elektrodë. Ndërsa ligji i dytë thotë se, për një sasi të caktuar elektriciteti, masa e materialit të elementit që ndryshon në atë elektrodë, është proporcional me masën ekuivalente të elementit.",
+    image:
+      "electromagnetic.jpg",
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "NodeMailer",
+    ],
+    category: "web app",
+    github: "https://www.academia.edu/19989706/INDUKSIONI_ELEKTROMAGNETIK",
+  },
+  {
+    id: 2,
+    title: "Gjurmët e Gishtave",
+    date: "2016",
+    description:
+      "Provat e veprave të ndryshme penale dhe krimeve që janë bërë në të kaluarën, për më shumë se një shekull ka lënë gjurmë të pashlyera në fushën e hetimit të gjurmëve të krimit në daktiloskopi.",
+    image:
+      "fingerprints.jpg",
+    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+    category: "machine learning",
+    github: "https://www.academia.edu/30593333/Gjurm%C3%ABt_e_gishtave_Kriminalistik%C3%AB_pdf",
+  },
+  {
+    id: 3,
+    title: "Toka dhe Dukuritë Atmosferike",
+    date: "2014",
+    description:
+      "Toka është vendi ku jetojmë ne, njerëzit e këtij planeti dhe bota, tërësia tjetër bimore dhe shtazore. Planeti jonë ndër njerëz njihet me emrin “Toka” ose “Bota”, por te disa njerëz njihet edhe me emrin “Planeti i kaltërt”. Ky planet është i vetmi që siguron dhe akomodon jetë të përshtatshme për gjallesat. Toka është edhe vend i miliona specieve tjera që jetojnë në planetin tonë dhe i njeriut i cili si specie humane është e shpërndarë mbi sipërfaqen e planetit dhe jeton i sistemuar në rreth 200 shtete. Njeriu jeton në këtë Tokë me ndihmën e ushqimit që nxjerr nga ajo vetë, nga biosfera dhe energjia e mineraleve e karburanteve që nxirren nga nëntoka. Supozohet që, krijimi i Tokës ka ardhë si rezultat i ngjarjeve që pasuan të ashtuquajturin “Shpërthimi i Madh”, Big-Bang . Sipas kësaj hipoteze, një yll stërmadh, shpërtheu dhe u nda në një pafundësi copash të cilat më pas krijuan galaktikat, dhe sistemet diellore. Në këtë mënyrë u krijua edhe sistemi ynë diellor.",
+    image:
+      "earth.jpg",
+    category: "android app",
+    github: "https://www.academia.edu/20335007/TOKA_DHE_DUKURIT%C3%8B_ATMOSFERIKE",
+  },
+  {
+    id: 10,
+    title: "Ndotja e ajrit në Kosovë",
+    date: "2015",
+    description:
+      "Qëllimi i këtij punimi me përmbajtje shkencore, është shqyrtimi i ndotjes së ajrit në Kosovë dhe karakteristikat e këtij problemi me përmasa globale. Pra një vëmendje të posaçme i kam kushtuar ndotjes së ajrit në vendin tonë në Kosovë, ku sipas disa studimeve ndotja atmosferike tejkalon normat e disa qyteteve dhe rajoneve më të ndotura në botë.",
+    image:
+      "airpollution.jpg",
+    tags: ["React Native", "JavaScript", "Axios"],
+    category: "android app",
+    github: "https://www.academia.edu/14206893/Ndotja_e_ajrit_n%C3%AB_Kosov%C3%AB",
+  },
+  {
+    id: 12,
+    title: "Ekuacionet Eksponenciale",
+    date: "2014",
+    description:
+      "E dimë se Algjebra është degë e matematikës e cila përveç tjerash merret edhe me shqyrtimin e ekuacioneve të ndryshme, ku hyjnë edhe ekuacionet eksponenciale dhe logaritmike. Në matematikë, ekuacionet janë shprehje ose formula të formës A=B, kua A dhe B janë shprehje të cilat mund të përmbajnë një ose më shumë variabla “të panjohura” dhe “=” tregon barazinë e shprehjes.",
+    image:
+      "ecuation.png",
+    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+    category: "machine learning",
+    github: "https://www.academia.edu/30937448/EKUACIONET_EKSPONENCIALE_DHE_ZBATIMI_I_TYRE",
+  },
+  {
+    id: 4,
+    title: "Sa grimca ka në Gjithësi?",
+    date: "1996",
+    description:
+      "Është shumë vështirë të dihet me saktësi se sa grimca ka në gjithësi apo Univers. Shkencëtarë dhe popullarizues të ndryshëm nga të katër anët e botës, deri më sot janë munduar të japin lloj-lloj mendime, kanë bërë llogari nga më të ndryshmet, por asnjëri prej tyre nuk ka arritur të jap një përgjigje të saktë, të argumentuar dhe me probabilitet të lartë. Nga kjo mbetet të kuptojmë se përgjigja në pyetjen se “Sa grimca ka në gjithësi?’’ mund të jepet vetëm përafërsisht, dhe të ketë shpjegim relativ.....",
+    image:
+      "particles.jpg",
+    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+    category: "android app",
+    github: "https://www.academia.edu/19989458/Sa_grimca_ka_n%C3%AB_Gjith%C3%ABsi",
+  },
+  {
+    id: 7,
+    title: "Ilustrimet në Astronomi",
+    date: "",
+    description:
+      "Si profesor i astrofizikës gjatë punës shumëvjeçare kam bërë këto vizatime për sferën qiellore dhe të tjera.",
+    image:
+      "astronomy.png",
+    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
+    category: "android app",
+    github: "https://pin.it/4uzzj4xuc",
+  },
+  {
+    id: 5,
+    title: "Gjysmëpërçuesit",
+    date: "2015",
+    description:
+      "Pasi që po jetojmë në epokën e teknologjisë së informacionit, atëherë zbulimi i transistorëve dhe i qarqeve të integruara ka quar deri te zbulimet e mëdha të shekullit të kaluar dhe arritjet e viteve të fundit në fushën e teknologjisë. Ndër zbulimet kryesore mund të përmendim; televizoriv, kompakt diskun, faksin, skaneri i bar-kodeve, telefonat celular, kamerat, lojërat elektronike, disqet usb, kompjuterët, e shumë të tjera.",
+    image:
+      "circuitboard.jpg",
+    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+    category: "machine learning",
+    github: "https://www.academia.edu/13661104/Gjysm%C3%ABp%C3%ABr%C3%A7uesit",
+  },
   // {
   //   id: 6,
   //   title: "Breaking Bad",
@@ -305,19 +325,6 @@ export const projects = [
   //   category: "web app",
   //   github: "https://github.com/rishavchanda/Breaking-Bad",
   //   webapp: "https://breaking-bad-webapp.netlify.app",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Quiz App",
-  //   date: "Dec 2020 - Jan 2021",
-  //   description:
-  //     "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-  //   image:
-  //     "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-  //   tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Quiz-Earn",
-  //   webapp: "https://github.com/rishavchanda/Quiz-Earn",
   // },
   // {
   //   id: 8,

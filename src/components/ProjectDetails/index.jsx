@@ -197,7 +197,7 @@ const index = ({ openModal, setOpenModal }) => {
                         }}
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
-                    {/* <Image src={project?.image} /> */}
+                    <Image src={project?.image} />
                     <Title>{project?.title}</Title>
                     <Date>{project.date}</Date>
                     {/* <Tags>
@@ -206,7 +206,7 @@ const index = ({ openModal, setOpenModal }) => {
                         ))}
                     </Tags> */}
                     <Desc>{project?.description}</Desc>
-                    {project.member && (
+                    {/* {project.member && (
                         <>
                             <Label>Members</Label>
                             <Members>
@@ -224,7 +224,7 @@ const index = ({ openModal, setOpenModal }) => {
                                 ))}
                             </Members>
                         </>
-                    )}
+                    )} */}
                     <ButtonGroup>
                         <Button dull href={project?.github} target='new'>Shiko Punimin</Button>
                         {/* <Button href={project?.webapp} target='new'>View Live App</Button> */}
