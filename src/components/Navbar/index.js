@@ -23,10 +23,10 @@ const Navbar = () => {
           }} />
         </MobileIcon>
         <NavItems>
-          <NavLink href="#about">Rreth meje</NavLink>
-          <NavLink href='#skills'>Njohuritë</NavLink>
+          {/* <NavLink href="#about">Rreth meje</NavLink> */}
+          {/* <NavLink href='#skills'>Njohuritë</NavLink>
           <NavLink href='#experience'>Eksperienca</NavLink>
-          <NavLink href='#projects'>Projektet</NavLink>
+          <NavLink href='#projects'>Projektet</NavLink> */}
           {/* <NavLink href='#education'>Edukimi</NavLink> */}
         </NavItems>
         <ButtonContainer>
@@ -35,7 +35,7 @@ const Navbar = () => {
         {
           isOpen &&
           <MobileMenu isOpen={isOpen}>
-            <MobileLink href="#about" onClick={() => {
+            {/* <MobileLink href="#about" onClick={() => {
               setIsOpen(!isOpen)
             }}>Rreth meje</MobileLink>
             <MobileLink href='#skills' onClick={() => {
@@ -46,7 +46,7 @@ const Navbar = () => {
             }}>Eksperienca</MobileLink>
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Projektet</MobileLink>
+            }}>Projektet</MobileLink> */}
             {/* <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Edukimi</MobileLink> */}

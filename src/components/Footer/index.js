@@ -86,12 +86,12 @@ function Footer() {
     <FooterContainer>
       <FooterWrapper>
         <Logo>Kujtim Baraliu</Logo>
-        <Nav>
+        {/* <Nav>
           <NavLink href="#about">Rreth Meje</NavLink>
           <NavLink href="#skills">Njohuritë</NavLink>
           <NavLink href="#experience">Eksperienca</NavLink>
           <NavLink href="#projects">Projektet</NavLink>
-        </Nav>
+        </Nav> */}
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
         </SocialMediaIcons>
